@@ -89,7 +89,7 @@ with tab2:
                                ("No family history", "Lung cancer in distant relatives", "Lung cancer in one close relative", "Lung cancer in one middle-aged close relative", "Lung cancer in multiple close relatives or one young close relative", "Lung cancer in several middle-aged close relatives or multiple young close relatives", "Lung cancer in many close relatives, including young ones"),
                                 key=(5))
                
-        coughing_of_blood = st.selectbox("Coughing of Blood (Batuk Darah):",
+        coughing_of_blood = st.selectbox("Coughing of Blood",
                                           ["None",
                                            "Very mild or rare",
                                            "Mild, few times/month",
@@ -101,7 +101,7 @@ with tab2:
                                            "Life-threatening"],
                                           key=6)
         
-        shortness_of_breath= st.selectbox("Shortness of Breath (Sesak Napas):",
+        shortness_of_breath= st.selectbox("Shortness of Breath",
                                             ["None",
                                              "During strenuous activity",
                                              "During light activity",
@@ -113,7 +113,7 @@ with tab2:
                                              "May need assistance"],
                                             key=7)
 
-        chest_pain = st.selectbox("Chest Pain (Nyeri Dada):",
+        chest_pain = st.selectbox("Chest Pain",
                                    ["None",
                                     "Mild occasional pain",
                                     "Mild pain several times/month",
@@ -136,7 +136,7 @@ with tab2:
                                      "> 15-20 kg, several months",
                                      "> 20 kg, several months"])
 
-        clubbing_of_finger_nails = st.selectbox("Clubbing of Finger Nails (Penebalan Ujung Jari):",
+        clubbing_of_finger_nails = st.selectbox("Clubbing of Finger Nails",
                                                  ["None",
                                                   "Mild, possibly due to other factors",
                                                   "Mild, not significant",
